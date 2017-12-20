@@ -25,6 +25,9 @@
   "bugs": {
     "url": "https://github.com/andreaspizsa/node-random-strings/issues"
   },
+  "dependencies": {
+    "crypto-browserify": "3.11.1"
+  },
   "devDependencies": {
     "vows": "~0.7.0",
     "coffee-script": "1.2.0",
