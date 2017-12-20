@@ -1,4 +1,4 @@
-crypto = require 'crypto'
+crypto = require 'crypto-browserify'
 
 module.exports.alphabet = alphabet = 
   alphaUpper    : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'

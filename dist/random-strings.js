@@ -1,7 +1,7 @@
 (function() {
   var alphabet, bufferToAlphabet, crypto, random;
 
-  crypto = require('crypto');
+  crypto = require('crypto-browserify');
 
   module.exports.alphabet = alphabet = {
     alphaUpper: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
